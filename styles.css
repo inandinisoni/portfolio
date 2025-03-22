@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+/* Base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+/* Custom focus styles */
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #6b7280;
+}
+
+/* Hover effects */
+.social-link:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tabler Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="flex flex-col bg-white min-h-screen">
+      <header class="flex justify-between items-center px-6 py-4">
+        <h1 class="text-xl font-semibold text-gray-900">NS</h1>
+
+        <nav class="flex gap-8 max-sm:hidden">
+          <a
+            href="index.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Home</a
+          >
+          <a
+            href="profile.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Profile</a
+          >
+          <a
+            href="skills.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Skills</a
+          >
+          <a
+            href="projects.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Projects</a
+          >
+          <a
+            href="contact.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Contact</a
+          >
+        </nav>
+
+        <button
+          type="button"
+          class="hidden max-sm:block"
+          aria-label="Toggle menu"
+          onclick="document.getElementById('mobile-menu').classList.toggle('hidden')"
+        >
+          <i class="ti ti-menu-2 text-2xl text-gray-900"></i>
+        </button>
+      </header>
+
+      <div
+        id="mobile-menu"
+        class="hidden sm:hidden bg-white py-4 px-6 absolute top-16 left-0 right-0 z-50 shadow-lg"
+      >
+        <nav class="flex flex-col gap-4">
+          <a
+            href="index.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Home</a
+          >
+          <a
+            href="profile.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Profile</a
+          >
+          <a
+            href="skills.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Skills</a
+          >
+          <a
+            href="projects.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Projects</a
+          >
+          <a
+            href="contact.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Contact</a
+          >
+        </nav>
+      </div>
+
+      <section class="flex flex-col bg-white min-h-[screen] font-['Inter']">
+        <div
+          class="px-6 py-12 mx-auto max-w-none max-md:max-w-[991px] max-sm:max-w-screen-sm"
+        >
+          <header class="flex flex-col items-center mb-12 text-center">
+            <h1 class="mb-4 text-3xl font-semibold text-gray-900">
+              Get in Touch
+            </h1>
+            <p class="text-base text-gray-500">
+              Have a question or want to work together? Feel free to reach out.
+            </p>
+          </header>
+
+          <div class="flex gap-6 max-md:flex-col">
+            <div class="flex-1">
+              <form class="p-6 bg-white rounded-lg shadow">
+                <div class="flex flex-col gap-6">
+                  <div class="flex flex-col gap-2">
+                    <label for="name" class="text-sm font-medium text-gray-700"
+                      >Name</label
+                    >
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Your name"
+                      class="px-4 py-3 w-full text-sm rounded-md border border-gray-300 focus:border-gray-500 focus:outline-none"
+                      required
+                    />
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <label for="email" class="text-sm font-medium text-gray-700"
+                      >Email</label
+                    >
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="soninandini214@gmail.com"
+                      class="px-4 py-3 w-full text-sm rounded-md border border-gray-300 focus:border-gray-500 focus:outline-none"
+                      required
+                    />
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <label
+                      for="message"
+                      class="text-sm font-medium text-gray-700"
+                      >Message</label
+                    >
+                    <textarea
+                      id="message"
+                      name="message"
+                      placeholder="Your message"
+                      class="px-4 py-3 w-full text-sm rounded-md border border-gray-300 resize-none h-[120px] focus:border-gray-500 focus:outline-none"
+                      required
+                    ></textarea>
+                  </div>
+                  <button
+                    type="submit"
+                    class="py-3 w-full text-sm font-medium text-white bg-gray-900 rounded-md duration-200 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <aside class="flex-1 max-w-[400px] max-md:max-w-full">
+              <div class="flex flex-col gap-6">
+                <article class="p-6 bg-white rounded-lg shadow">
+                  <h2 class="mb-4 text-lg font-semibold text-gray-900">
+                    Contact Information
+                  </h2>
+                  <div class="flex flex-col gap-3">
+                    <a
+                      href="mailto:soninandini214@gmail.com"
+                      class="flex gap-2 items-center text-sm text-gray-500 hover:text-gray-700 duration-200"
+                    >
+                      <i class="ti ti-mail" aria-hidden="true"></i>
+                      <span>soninandini214@gmail.com</span>
+                    </a>
+                   
+                  </div>
+                </article>
+
+                <article class="p-6 bg-white rounded-lg shadow">
+                  <h2 class="mb-4 text-lg font-semibold text-gray-900">
+                    Connect With Me
+                  </h2>
+                  <nav class="flex gap-4">
+                    <a
+                      href="https://linkedin.com/in/inandinisoni"
+                      class="text-gray-500 duration-200 hover:text-gray-700 social-link"
+                      aria-label="LinkedIn"
+                    >
+                      <i class="ti ti-brand-linkedin text-2xl"></i>
+                    </a>
+                    <a
+                      href="https://github.com/inandinisoni"
+                      class="text-gray-500 duration-200 hover:text-gray-700 social-link"
+                      aria-label="GitHub"
+                    >
+                      <i class="ti ti-brand-github text-2xl"></i>
+                    </a>
+                  </nav>
+                </article>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nandini Soni - Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen">
+    <div class="flex flex-col bg-white min-h-screen">
+      <header class="flex justify-between items-center px-6 py-4">
+        <h1 class="text-xl font-semibold text-gray-900">NS</h1>
+
+        <nav class="flex gap-8 max-sm:hidden">
+          <a
+            href="index.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Home</a
+          >
+          <a
+            href="profile.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Profile</a
+          >
+          <a
+            href="skills.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Skills</a
+          >
+          <a
+            href="projects.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Projects</a
+          >
+          <a
+            href="contact.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Contact</a
+          >
+        </nav>
+
+        <button
+          type="button"
+          class="hidden max-sm:block"
+          aria-label="Toggle menu"
+          onclick="document.getElementById('mobile-menu').classList.toggle('hidden')"
+        >
+          <i class="ti ti-menu-2 text-2xl text-gray-900"></i>
+        </button>
+      </header>
+
+      <div
+        id="mobile-menu"
+        class="hidden sm:hidden bg-white py-4 px-6 absolute top-16 left-0 right-0 z-50 shadow-lg"
+      >
+        <nav class="flex flex-col gap-4">
+          <a
+            href="index.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Home</a
+          >
+          <a
+            href="profile.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Profile</a
+          >
+          <a
+            href="skills.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Skills</a
+          >
+          <a
+            href="projects.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Projects</a
+          >
+          <a
+            href="contact.html"
+            class="text-gray-600 hover:text-gray-900 transition-colors"
+            >Contact</a
+          >
+        </nav>
+      </div>
+
+      <main
+        class="flex flex-col justify-center items-center px-6 py-12 flex-grow max-sm:py-8"
+      >
+        <div class="w-16 h-16">
+          <img src="logo.png" alt="Logo" class="w-full h-full" />
+        </div>
+
+        <h2 class="mt-6 text-3xl font-semibold text-gray-900">Nandini Soni</h2>
+        <p class="mt-2 text-gray-500">
+          B.Tech in Internet of Things | Web Developer | AI Enthusiast
+        </p>
+
+        <div class="flex gap-4 mt-6">
+          <a
+            href="projects.html"
+            class="px-6 py-3 font-medium text-white bg-gray-900 rounded-lg hover:bg-gray-800 transition-colors"
+          >
+            View My Work
+          </a>
+          <a
+            href="contact.html"
+            class="px-6 py-3 font-medium text-gray-900 rounded-lg border border-gray-300 border-solid hover:bg-gray-50 transition-colors"
+          >
+            Contact Me
+          </a>
+        </div>
+
+        <div class="flex gap-6 mt-8">
+          <a
+            href="https://github.com/inandinisoni"
+            class="text-gray-500 hover:text-gray-900 transition-colors"
+            aria-label="GitHub Profile"
+          >
+            <i class="ti ti-brand-github text-2xl"></i>
+          </a>
+          <a
+            href="https://linkedin.com/in/inandinisoni"
+            class="text-gray-500 hover:text-gray-900 transition-colors"
+            aria-label="LinkedIn Profile"
+          >
+            <i class="ti ti-brand-linkedin text-2xl"></i>
+          </a>
+          <a
+            href="mailto:soninandini214@gmail.com"
+            class="text-gray-500 hover:text-gray-900 transition-colors"
+            aria-label="Email Contact"
+          >
+            <i class="ti ti-mail text-2xl"></i>
+          </a>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

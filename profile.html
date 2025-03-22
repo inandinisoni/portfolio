@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex flex-col bg-white min-h-screen">
+        <header class="flex justify-between items-center px-6 py-4">
+            <h1 class="text-xl font-semibold text-gray-900">NS</h1>
+
+            <nav class="flex gap-8 max-sm:hidden">
+                <a href="index.html" class="text-gray-600 hover:text-gray-900 transition-colors">Home</a>
+                <a href="profile.html" class="text-gray-600 hover:text-gray-900 transition-colors">Profile</a>
+                <a href="skills.html" class="text-gray-600 hover:text-gray-900 transition-colors">Skills</a>
+                <a href="projects.html" class="text-gray-600 hover:text-gray-900 transition-colors">Projects</a>
+                <a href="contact.html" class="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+            </nav>
+
+            <button type="button" class="hidden max-sm:block" aria-label="Toggle menu"
+                onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+                <i class="ti ti-menu-2 text-2xl text-gray-900"></i>
+            </button>
+        </header>
+
+        <div id="mobile-menu" class="hidden sm:hidden bg-white py-4 px-6 absolute top-16 left-0 right-0 z-50 shadow-lg">
+            <nav class="flex flex-col gap-4">
+                <a href="index.html" class="text-gray-600 hover:text-gray-900 transition-colors">Home</a>
+                <a href="profile.html" class="text-gray-600 hover:text-gray-900 transition-colors">Profile</a>
+                <a href="skills.html" class="text-gray-600 hover:text-gray-900 transition-colors">Skills</a>
+                <a href="projects.html" class="text-gray-600 hover:text-gray-900 transition-colors">Projects</a>
+                <a href="contact.html" class="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+            </nav>
+        </div>
+
+        <main class="flex flex-col bg-white min-h-[screen]">
+            <article class="px-6 py-12 mx-auto w-full max-w-[1200px] max-md:px-5 max-sm:px-4 max-sm:py-8">
+                <div class="flex flex-col gap-8 max-sm:gap-6">
+                    <div class="flex gap-8 items-start max-md:gap-6 max-sm:flex-col">
+                        <aside class="w-[300px] max-sm:w-full">
+                            <div class="p-4 mb-6 bg-gray-50 rounded-lg">
+                                <img src="image.jpg"
+                                    alt="Profile" class="w-full h-auto mb-[16px]" />
+                                <div class="flex flex-col gap-2">
+                                    <div class="flex justify-center">
+                                        <button
+                                            class="flex gap-2 items-center px-4 py-2 text-sm font-medium text-white bg-gray-900 rounded-md">
+                                            <i class="ti ti-download" aria-hidden="true"></i>
+                                            <span><a
+                                                    href="https://drive.google.com/file/d/1RWEeL0FmjEplEAh2sbdnc0ZHbzh7JbsJ/view?usp=sharing">Download
+                                                Resume</a></span>
+                                        </button>
+                                    </div>
+                                    <nav class="flex gap-4 justify-center mt-2">
+                                        <a href="https://linkedin.com/in/inandinisoni" class="text-gray-700"
+                                            aria-label="LinkedIn Profile">
+                                            <i class="ti ti-brand-linkedin text-2xl" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="https://github.com/inandinisoni" class="text-gray-700"
+                                            aria-label="GitHub Profile">
+                                            <i class="ti ti-brand-github text-2xl" aria-hidden="true"></i>
+                                        </a>
+                                        <a href="mailto:soninandini214@gmail.com" class="text-gray-700"
+                                            aria-label="Email Contact">
+                                            <i class="ti ti-mail text-2xl" aria-hidden="true"></i>
+                                        </a>
+                                    </nav>
+                                </div>
+                            </div>
+                        </aside>
+
+                        <section class="flex-1">
+                            <header>
+                                <h1 class="mb-4 text-2xl font-semibold text-gray-900">
+                                    About Me
+                                </h1>
+
+                                <p class="mb-8 text-gray-600">
+                                    I am <b>Nandini Soni</b>, a passionate and driven B.Tech student in the field of
+                                    Internet
+                                    of Things (IoT) at Samrat Ashok Technological Institute, Vidisha, with a current
+                                    CGPA of 7.32/10. My academic journey has equipped me with a strong foundation in
+                                    Object-Oriented Programming, Data Structures & Algorithms, Embedded Systems, DBMS,
+                                    and Web Technology.
+                                    <br> <br>
+                                    I have hands-on experience as a Web Developer Intern at Ratlam Diesel Shed - Indian
+                                    Railways, where I developed a Landing Page for DTTC, Ratlam. My technical
+                                    proficiency spans across multiple programming languages, including C, Python, Java,
+                                    SQL, JavaScript, and HTML/CSS. Additionally, I am skilled in Git/GitHub, VS Code,
+                                    IntelliJ IDEA, MySQL, and Microsoft Office, with a creative edge in video editing
+                                    using Premiere Pro.
+                                    <br><br>
+                                    My project portfolio reflects my ability to integrate hardware and software
+                                    solutions, such as developing an Arduino-based, Bluetooth-controlled RC Car,
+                                    creating an engaging Snake Game using Python and Turtle Graphics, and building a
+                                    Graphical User Interface Calculator. These projects demonstrate my problem-solving
+                                    skills, algorithmic thinking, and expertise in embedded programming, GUI
+                                    development, and game logic implementation.
+                                    <br><br>
+                                    Beyond academics, I have earned multiple certifications, including Programming for
+                                    Everyone using Python (University of Michigan), Google Cloud's Generative AI &
+                                    Prompt Design, and AWSOME DAY Online Conference by Amazon AWS. I am always eager to
+                                    explore new technologies and apply my knowledge to real-world challenges through
+                                    continuous learning and innovation.
+                                </p>
+                            </header>
+
+                            <section class="mb-8">
+                                <h2 class="mb-4 text-xl font-semibold text-gray-900">
+                                    Education
+                                </h2>
+                                <div class="flex flex-col gap-4">
+                                    <article class="flex flex-col">
+                                        <h3 class="text-base font-medium text-gray-900">
+                                            B.Tech in Internet of Things
+                                        </h3>
+                                        <p class="text-sm text-gray-500">
+                                            Samrat Ashok Technological Institute, Vidisha • June 2026
+                                        </p>
+                                        <p class="text-sm text-gray-500">
+                                            Current CGPA: 7.32/10
+                                        </p>
+                                    </article>
+                                </div>
+                            </section>
+
+                            <section class="mb-8">
+                                <h2 class="mb-4 text-xl font-semibold text-gray-900">
+                                    Certifications
+                                </h2>
+                                <div class="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
+                                    <article class="p-4 bg-gray-50 rounded-lg">
+                                        <div class="flex gap-3 items-center">
+                                            <i class="ti ti-certificate text-2xl text-gray-900" aria-hidden="true"></i>
+                                            <div>
+                                                <h3 class="text-base font-medium text-gray-900">
+                                                    <a
+                                                        href="https://www.coursera.org/account/accomplishments/verify/V5M9ES66VTQ7">Programming
+                                                        for Everyone using Python</a>
+                                                </h3>
+                                                <p class="text-sm text-gray-500">
+                                                    University of Michigan
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="p-4 bg-gray-50 rounded-lg">
+                                        <div class="flex gap-3 items-center">
+                                            <i class="ti ti-certificate text-2xl text-gray-900" aria-hidden="true"></i>
+                                            <div>
+                                                <h3 class="text-base font-medium text-gray-900">
+                                                    <a
+                                                        href="https://www.coursera.org/account/accomplishments/verify/55N2YUC9PKPN">
+                                                        Work Smarter with Microsoft Word</a>
+                                                </h3>
+                                                <p class="text-sm text-gray-500">Microsoft</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="p-4 bg-gray-50 rounded-lg">
+                                        <div class="flex gap-3 items-center">
+                                            <i class="ti ti-certificate text-2xl text-gray-900" aria-hidden="true"></i>
+                                            <div>
+                                                <h3 class="text-base font-medium text-gray-900">
+                                                    <a
+                                                        href="https://www.credly.com/badges/b205cf73-b1da-401c-98c7-4915c0b4f7c6/public_url">Prompt
+                                                        Design in Vertex AI Skill Badge</a>
+                                                </h3>
+                                                <p class="text-sm text-gray-500">Google Cloud</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="p-4 bg-gray-50 rounded-lg">
+                                        <div class="flex gap-3 items-center">
+                                            <i class="ti ti-certificate text-2xl text-gray-900" aria-hidden="true"></i>
+                                            <div>
+                                                <h3 class="text-base font-medium text-gray-900">
+                                                    <a
+                                                        href="https://www.cloudskillsboost.google/public_profiles/d2b758de-e853-412d-b62e-12112137afd6/badges/8953418?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share">Introduction
+                                                        to Generative AI</a>
+                                                </h3>
+                                                <p class="text-sm text-gray-500">Google Cloud</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="p-4 bg-gray-50 rounded-lg">
+                                        <div class="flex gap-3 items-center">
+                                            <i class="ti ti-certificate text-2xl text-gray-900" aria-hidden="true"></i>
+                                            <div>
+                                                <h3 class="text-base font-medium text-gray-900">
+                                                    <a
+                                                        href="https://drive.google.com/file/d/16SVFnsQwoJrhZ8tB1k1SbSAtCLgsQnbh/view?pli=1">Develop
+                                                        GenAI Apps with Gemini and Streamlit</a>
+                                                </h3>
+                                                <p class="text-sm text-gray-500">Google Cloud</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <article class="p-4 bg-gray-50 rounded-lg">
+                                        <div class="flex gap-3 items-center">
+                                            <i class="ti ti-certificate text-2xl text-gray-900" aria-hidden="true"></i>
+                                            <div>
+                                                <h3 class="text-base font-medium text-gray-900">
+                                                    AWSOME DAY Online Conference
+                                                </h3>
+                                                <p class="text-sm text-gray-500">Amazon AWS</p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </section>
+
+                            <section>
+                                <h2 class="mb-4 text-xl font-semibold text-gray-900">
+                                    Work Experience
+                                </h2>
+                                <div class="flex flex-col gap-4">
+                                    <article class="flex flex-col">
+                                        <h3 class="text-base font-medium text-gray-900">
+                                            Web Developer Intern
+                                        </h3>
+                                        <p class="text-sm text-gray-500">Ratlam Diesel Shed - Indian Railways • July
+                                            2023</p>
+                                        <p class="mt-1 text-sm text-gray-600">
+                                            Developed Landing Page For DTTC, Ratlam
+                                        </p>
+                                    </article>
+                                </div>
+                            </section>
+                        </section>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+</body>
+
+</html>
